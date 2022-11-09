@@ -1,0 +1,10 @@
+Event kind : ENTRY_MODIFY - File : New Text Document.txt
+Event kind : ENTRY_DELETE - File : New Text Document.txt
+Event kind : ENTRY_CREATE - File : New Text Document.txt
+Event kind : ENTRY_DELETE - File : New Text Document.txt
+Event kind : ENTRY_CREATE - File : JavaProgram.txt
+Event kind : ENTRY_CREATE - File : New folder
+Event kind : ENTRY_DELETE - File : New folder
+Event kind : ENTRY_CREATE - File : Blocks
+Event kind : ENTRY_DELETE - File : Blocks
+Event kind : ENTRY_DELETE - File : JavaProgram.txt
