@@ -26,15 +26,11 @@ public class EmployeePayrollService {
 	
 	
 	public void listFilesDirectory() throws IOException, InterruptedException  {
-		ArrayList<String> writing = new ArrayList<String>();
-			
-			writing.add("Id : 001");
-			writing.add("Name : Ashutosh");
-			writing.add("Salary : 800000");
-//		File Exist => Override                        
-				// Will create new file if not exist                  
-				Files.write(Paths.get("C:\\Users\\ASHUTOSH NAWALE\\eclipse-workspace\\Java_IO_Class199\\Test1.txt"), writing, StandardOpenOption.CREATE);
-	System.out.println("The Writing is done.......");
+		        
+	List<String> line=	Files.readAllLines(Paths.get("C:\\Users\\ASHUTOSH NAWALE\\eclipse-workspace\\Java_IO_Class199\\Test1.txt"));
+			for(String lines:line) {
+				System.out.println(lines);
+			}
 	}
 public static void main(String[] args) throws IOException, InterruptedException {
 	EmployeePayrollService obj=new EmployeePayrollService();
