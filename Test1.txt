@@ -1,3 +1,2 @@
-Id : 001
-Name : Ashutosh
-Salary : 800000
+Id : 001 , Name : Ashutosh ,  Salary : 800000
+Id : 002 , Name : Nikita ,  Salary : 850000
